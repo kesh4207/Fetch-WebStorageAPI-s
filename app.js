@@ -4,9 +4,12 @@ function addElements(lists){
 
 let currentList = document.getElementById('list');
 lists.forEach(list => {
-let x = document.createElement('li')
+let x = document.createElement('li');
 x.innerText= list;
 currentList.appendChild(x);
+currentList = document.getElementById('list').lastElementChild;
+
+
 
 
 })
@@ -24,8 +27,9 @@ function addItem()
             console.log("Ok!")
         } else {console.log("Oh no!")}
         });
-        let currentList = document.getElementById('list');
-        let newItem = document.createElement('li')
+        
+        let currentList = document.getElementById('list').lastElementChild;
+        let newItem = document.createElement('li');
         newItem.innerText= itemToAdd;
         currentList.appendChild(newItem);
         return false;
