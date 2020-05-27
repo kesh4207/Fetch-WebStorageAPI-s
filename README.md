@@ -1,6 +1,6 @@
 # Fetch-WebStorageAPI-s
 
-# Write the HTML, CSS and JavaScript to do the following:
+### Write the HTML, CSS and JavaScript to do the following:
 
 1. Fetch an array of wall items
 
