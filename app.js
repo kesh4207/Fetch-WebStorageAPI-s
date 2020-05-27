@@ -7,7 +7,7 @@ lists.forEach(list => {
 let x = document.createElement('li');
 x.innerText= list;
 currentList.appendChild(x);
-currentList = document.getElementById('list').lastElementChild;
+
 
 
 
