@@ -10,4 +10,4 @@ currentList.appendChild(x);
 
 
 })
-};
+}
