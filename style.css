@@ -1,6 +1,29 @@
-*{
-    background-color:  rgb(209, 209, 224) ;
-    margin: auto;
+body {
     
+    
+    width:100%;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    
+
+}
+
+
+
+*{
+    background: border-box;
+
+   
+    background-color: aqua;
+    margin: auto;
+    top: 40px;
     font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    text-align: inherit;
+    font-family: monospace;
+    
 }

@@ -28,9 +28,10 @@ function addItem()
         } else {console.log("Oh no!")}
         });
         
-        let currentList = document.getElementById('list').lastElementChild;
+        /*let currentList = document.getElementById('list');
         let newItem = document.createElement('li');
         newItem.innerText= itemToAdd;
         currentList.appendChild(newItem);
-        return false;
+        return false;*/
+        
 }
