@@ -95,6 +95,33 @@ button {
 .rightcol:hover {
     overflow: visible;
   }
+
+  @media screen and (max-width: 800px) {
+    .leftcol, .rightcol{   
+      width: 100%;
+      padding: 0;
+      position: static;
+
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    button{   
+      float: none;
+      border: none;
+      
+      
+
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .head h1{   
+      width: 100%;
+      
+
+    }
+  }
  
 
 
