@@ -95,7 +95,7 @@ function addItem()
         newItem.innerText= itemToAdd;
         currentList.appendChild(newItem);
         return false;*/
-        return false;
+        
        
         
 }
