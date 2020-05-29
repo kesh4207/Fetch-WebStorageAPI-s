@@ -14,6 +14,17 @@ currentList.appendChild(x);
 
 })
 }
+
+
+function ReduceList()
+{
+    let list= document.getElementById('list');
+    list=list.getElementsByTagName('li');
+    while (list.length > 70) list[0].remove();
+    
+    return false;
+     
+}
 function addItem()
 {
     

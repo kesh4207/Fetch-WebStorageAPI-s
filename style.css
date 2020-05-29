@@ -1,29 +1,95 @@
-body {
-    
-    
-    width:100%;
-}
-h1{
-    font-size: 100px;
-    text-align: center;
-    
-
-}
-
-
-
 *{
-    background: border-box;
+    box-sizing: border-box;
 
-   
-    background-color: aqua;
-    margin: auto;
-    top: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    left: 20px;
-    text-align: inherit;
+}
+
+
+body {
     font-family: monospace;
+    padding: 10px;
+    background: rgb(167, 214, 214);
+    
+  }
+  /* moving title to center */
+.head h1{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid rgb(1, 1, 36);
+    width: 20%;
+    position: sticky;
+    left: 45%;
+    
+    
+
+}
+.rightcol {
+    
+    
+    width: 60%;
+    
+    
+    padding-left: 10px;
+    overflow: hidden;
+    
     
 }
+
+.leftcol
+{
+   
+        background: #216fa3;
+        padding: 20px;
+        margin-top: 20px;
+        border: 3px solid rgb(3, 3, 59);
+       
+        position: absolute;
+        left: 65%;
+        font-size: 20px;
+    
+
+}
+
+button {
+    background-color:rgba(54, 54, 173, 0.623);
+    border: 3px solid rgb(3, 3, 59);
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+ul
+{
+   
+   background: #216fa3 ;
+   border: 5px solid rgb(3, 3, 59);
+}
+
+ul li{
+    display: flex;
+    background: #54aeeb;
+    border: 3px solid #216fa3;
+    color: lavender;
+    font-size: 20px;
+    
+  
+    
+    
+    
+}
+/* overflow text visible when user hovers over*/
+
+.rightcol:hover {
+    overflow: visible;
+  }
+ 
+
+
+
+
